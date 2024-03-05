@@ -1,31 +1,5 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  font-family: "Inter", Arial, Sans-Serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0 auto;
-  background-color: #fff;
-  background-image: url(../images/background_header.svg);
-  background-position: center;
-  background-size: cover;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  padding: 30px 80px 40px;
-  position: relative;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-}
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
 
 .nav__logo {
   position: relative;
@@ -56,16 +30,6 @@
   color: #1f69c9;
 }
 
-.header__title {
-  max-width: 729px;
-  font-family: "Inter", Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  margin: 183px 0 0;
-}
-
 .header__span-accent {
   display: block;
   font-style: italic;
@@ -73,16 +37,6 @@
   font-size: 60px;
   line-height: 72px;
   font-weight: normal;
-}
-
-.header__description {
-  max-width: 683px;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 30px;
-  font-family: "Noto Serif", Times, sans-serif;
-  margin: 28px 0 0;
 }
 
 .header__image {
@@ -119,15 +73,6 @@
   margin: 0;
   font-style: normal;
   font-weight: normal;
-}
-
-.recipes {
-  background-color: #0a2750;
-  padding: 100px 80px 215px;
-  background-image: url(../images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .recipes__title {
@@ -180,18 +125,6 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-}
-
-.reservation {
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.form {
-  max-width: 385px;
 }
 
 .reservation__form {
@@ -286,10 +219,4 @@
 .form__input_type_checkbox {
   height: 20px;
   width: 20px;
-}
-
-.footer {
-  box-sizing: border-box;
-  background-color: #1f1f1f;
-  color: #fff;
 }
