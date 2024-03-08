@@ -10,7 +10,12 @@
   font-size: 20px;
   line-height: 30px;
   width: 540px;
-  margin: 0 0 32px 0;
+  margin-bottom: 32px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
 }
 
 .card__list-item {
