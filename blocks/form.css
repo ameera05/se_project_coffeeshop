@@ -83,6 +83,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 2px;
+  margin-bottom: 120px;
 }
 
 .form__input_type_checkbox {
