@@ -9,28 +9,26 @@
 }
 
 .menu__title {
-  display: flex;
-  justify-content: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Sans-Serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 24px 0;
 }
 
 .menu__subtitle {
   display: flex;
   justify-content: center;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 24px 0 100px 0;
   max-width: 780px;
   text-align: center;
 }
@@ -42,38 +40,4 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.card {
-  width: 540px;
-  margin-bottom: 100px;
-}
-
-.card__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 32px;
-  width: 540px;
-  margin-left: 40px;
-}
-
-.card__list-item {
-  margin-bottom: 16px;
-  display: flex;
-  font-family: "Noto Serif";
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid #000;
-  flex-grow: 1;
-  margin-left: auto;
 }
