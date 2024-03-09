@@ -7,6 +7,10 @@
   padding-top: 100px;
 }
 
+.reservation__form {
+  margin: auto;
+}
+
 .reservation__title {
   display: flex;
   justify-content: center;
