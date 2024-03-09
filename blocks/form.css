@@ -68,7 +68,6 @@
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   margin-right: 12px;
-  border-radius: 2px;
 }
 
 .form__label_type_checkbox {
@@ -77,6 +76,7 @@
   justify-content: center;
   border-radius: 2px;
   margin-bottom: 120px;
+  padding-bottom: 0;
 }
 
 .form__input_type_checkbox {
