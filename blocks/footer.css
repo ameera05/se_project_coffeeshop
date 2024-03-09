@@ -15,7 +15,7 @@
   margin-right: auto;
 }
 
-.footer__content_social {
+.footer__social {
   display: flex;
   flex-direction: column;
 }
